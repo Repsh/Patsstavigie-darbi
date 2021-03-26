@@ -2,6 +2,7 @@
 body{
     margin: 0;
     background: #17202A;
+    font-family: Helvetica;
 }
 
 a {
@@ -16,7 +17,6 @@ a {
     flex-direction: column;
     background: #17202A;
     box-sizing: border-box;
-    border-right: 10px white;
 
     a{
         display: flex;
@@ -25,7 +25,6 @@ a {
         width: 100%;
         font-size: 15px;
         line-height: 20px;
-        font-family: Helvetica;
         color: white;
         padding-left: 100px;
         padding-top: 40px;
@@ -35,37 +34,48 @@ a {
     }
 
     .icon {
+    
         
       
         .notification {
           position: relative;
-          top: -7px;
-          right: 5px;
+          top: -11px;
+          right: 14px;
           display: inline-block;
-          width: 30px;
-          height: 30px;
-          line-height: 30px;
+          width: 16px;
+          height: 16px;
+          line-height: 25px;
           vertical-align: middle;
           text-align: center;
-          background: skyblue;
           border-radius: 50px;
         }
-      }
+    }
 
     .text {
         padding-left: 20px;
     }
 
     .tweet {
-    display: inline-block;
-    border: 0;
-    position: relative;
-    width: 211px;
-    height: 50px;
-    left: 80px;
-    top: 40px;
-    background: #4BA0EC;
-    border-radius: 100px;
+        display: inline-block;
+        border: 0;
+        position: relative;
+        width: 211px;
+        height: 50px;
+        left: 85px;
+        top: 40px;
+        background: #4BA0EC;
+        border-radius: 100px;
+
+        button {
+            position: relative;
+            display: inline-block;
+            border: 0;
+            top: -25px;
+            right: 20px;
+            outline: none;
+            font-weight: bold;
+            background: #4BA0EC;
+        }
     }
 }
 
