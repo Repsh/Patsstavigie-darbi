@@ -1,81 +1,76 @@
-
-body{
-    margin: 0;
-    background: #17202A;
-    font-family: Helvetica;
+body {
+  margin: 0;
+  background: #17202a;
+  font-family: Helvetica;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .side-menu {
-    font-size: 15px;
-    width: 350px;
-    height: 500px;
+  font-size: 15px;
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: #17202a;
+  box-sizing: border-box;
+  border: 2px solid #C4C4C4;
+
+  a {
     display: flex;
-    flex-direction: column;
-    background: #17202A;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 40px;
     box-sizing: border-box;
+    padding-bottom: 10px;
+  }
 
-    a{
-        display: flex;
-        align-items: center;
-        height: 40px;
-        width: 100%;
-        font-size: 15px;
-        line-height: 20px;
-        color: white;
-        padding-left: 100px;
-        padding-top: 40px;
-        box-sizing: border-box;
-        padding-bottom: 10px;
-        
+  .icon {
+    .notification {
+      position: relative;
+      top: -11px;
+      right: 14px;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      line-height: 25px;
+      vertical-align: middle;
+      text-align: center;
+      border-radius: 50px;
     }
+  }
 
-    .icon {
-    
-        
-      
-        .notification {
-          position: relative;
-          top: -11px;
-          right: 14px;
-          display: inline-block;
-          width: 16px;
-          height: 16px;
-          line-height: 25px;
-          vertical-align: middle;
-          text-align: center;
-          border-radius: 50px;
-        }
+  .text {
+    padding-left: 20px;
+  }
+
+  .tweet {
+    display: inline-block;
+    border: 0;
+    position: relative;
+    width: 211px;
+    height: 50px;
+    left: 85px;
+    top: 40px;
+    background: #4ba0ec;
+    border-radius: 100px;
+
+    button {
+      position: relative;
+      display: inline-block;
+      border: 0;
+      top: -25px;
+      right: 20px;
+      outline: none;
+      font-weight: bold;
+      background: #4ba0ec;
     }
-
-    .text {
-        padding-left: 20px;
-    }
-
-    .tweet {
-        display: inline-block;
-        border: 0;
-        position: relative;
-        width: 211px;
-        height: 50px;
-        left: 85px;
-        top: 40px;
-        background: #4BA0EC;
-        border-radius: 100px;
-
-        button {
-            position: relative;
-            display: inline-block;
-            border: 0;
-            top: -25px;
-            right: 20px;
-            outline: none;
-            font-weight: bold;
-            background: #4BA0EC;
-        }
-    }
+  }
 }
-
